@@ -1,0 +1,34 @@
+{
+  "best_model": "Gradient Boosting",
+  "n_train": 4800,
+  "n_test": 1200,
+  "comparison": [
+    {
+      "Model": "Linear Regression",
+      "MAE": 1.834,
+      "RMSE": 2.722,
+      "R2": 0.596
+    },
+    {
+      "Model": "Random Forest",
+      "MAE": 0.707,
+      "RMSE": 1.038,
+      "R2": 0.941
+    },
+    {
+      "Model": "Gradient Boosting",
+      "MAE": 0.517,
+      "RMSE": 0.698,
+      "R2": 0.973
+    }
+  ],
+  "feature_importance": {
+    "avg_speed_kmh": 0.26476111407048714,
+    "trip_distance_km": 0.2106374168608693,
+    "temperature_c": 0.04948325034315943,
+    "mass_kg": 0.028006137239334206,
+    "elevation_change_m": 0.32566804263386323,
+    "ac_on": 0.07376327033446946,
+    "driving_style": 0.04768076851781738
+  }
+}
