@@ -7,6 +7,11 @@ Predicts EV energy use (kWh/100 km) from 7 trip inputs, using a physics-simulate
     python data_generation.py   # -> data/ev_trips.csv
     python train_model.py       # -> models/best_model.joblib, models/metrics.json
     streamlit run app.py
+    pip install pandas numpy scikit-learn joblib streamlit
+    cd ev_consumption
+
+
+
 
 ## Files
 - data_generation.py - physics simulator (aero drag, rolling resistance, grade + regen, cold-battery loss, A/C load, driving style, noise)
